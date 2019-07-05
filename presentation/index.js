@@ -24,6 +24,7 @@ const images = {
   communication: require('../assets/communication.gif'),
   ego: require('../assets/ego.gif'),
   team: require('../assets/team.gif'),
+  team2: require('../assets/team2.gif'),
   crisis: require('../assets/crisis.gif'),
   goals: require('../assets/goals.gif'),
   partner: require('../assets/partner.gif'),
@@ -80,7 +81,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide  transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={3} textColor="secondary">Build your team</Heading>
-          <Image transition={['fade']} src={images.team} width={500} />
+          <Image transition={['fade']} src={images.team2} width={500} />
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={3} textColor="secondary">Crisis intervention</Heading>
